@@ -2,7 +2,7 @@
   "name": "shipping-label",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   "homepage": "https://github.com/SaturdaysHeroes/shipping-label#readme",
   "dependencies": {
     "@types/express": "^4.17.9",
+    "@types/node": "^14.14.20",
+    "ejs": "^3.1.5",
     "express": "^4.17.1"
   }
 }

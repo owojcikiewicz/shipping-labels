@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: rgb(27,27,29);
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(255, 255, 255);
+}
+.main-conatiner{
+    position:fixed;
+    background-color: rgb(34,35,40);
+    width: 600px;
+    height: 550px;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mainlbl{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5px;
+}
+
+ol{
+    list-style: none;   
+    margin-top: 40px;
+
+    
+}
+
+ol li {  
+    text-align: center;
+    margin: 40px;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: rgb(200, 200, 200);
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(180, 180, 180);
+    background-color: rgba(44,45,50) ;
+    outline: none;
+    border: none;
+}
+
+input:focus{
+    background-color:rgb(64,65,70);
+}
+
+.acceptbtn{
+    position:fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgba(17,200,150,75%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.acceptbtn:hover{
+    background-color:rgba(17,200,150,90%);
+    cursor: pointer;
+}
