@@ -29,7 +29,10 @@ export default function() {
                 return;
             };
 
-            res.redirect("/download/" + id);
+            res.json({
+                code: 200, 
+                message: id
+            });
         })
     });
 

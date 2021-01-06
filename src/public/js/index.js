@@ -21,17 +21,20 @@ button.addEventListener("click", async _ => {
         }
     })
     .then(res => {
-        if (res.status == 400) {
+        if (res.status == 200) {
+            let imgID = res.data.message; 
+            window.location = "/download/" + imgID;
+        }
+    })
+    .catch(err => {
+        if (err.response.status == 400) {
             swal("Error", "Please make sure all paramters are filled!", "error");
             return;
         };
 
-        if (res.status == 500) {
+        if (err.response.status == 500) {
             swal("Error", "An internal server error occurred!", "error");
             return;
         };
-    })
-    .catch(err => {
-        console.log("Error: " + err);
     });
 });
