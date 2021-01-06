@@ -1,0 +1,19 @@
+{
+  "name": "shipping-label",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaturdaysHeroes/shipping-label.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaturdaysHeroes/shipping-label/issues"
+  },
+  "homepage": "https://github.com/SaturdaysHeroes/shipping-label#readme"
+}
