@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Shipping Labels</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -14,39 +14,41 @@
       <li>
         <div class="name-container">
           <label class="name-container label">Sender Name:</label>
-          <input type="text">
+          <input type="text" id = "sender">
         </div>
       </li>
 
       <li>
         <div class="recipent-container">
           <label class="recipent-container label">Recipient Name:</label>
-          <input type="text">
+          <input type="text" id = "recipient">
         </div>
       </li>
 
       <li>
-        <div class="date-container">
-          <label class="date-containerr label">Date:</label>
-          <input type="date">
+        <div class="carrier-container">
+          <label class="carrier-container label">Carrier:</label>
+          <input type="text" id = "carrier">
         </div>
       </li>
       <li>
         <div class="miejsce-container">
           <label class="miejsce-container label">Address:</label>
-          <input type="text">
+          <input type="text" id = "address">
         </div>
       </li>
 
       <li>
         <div class="extra-container">
           <label class="extra-container label">Additional Information:</label>
-          <input type="text">
+          <input type="text" id = "notes">
         </div>
       </li>
     </ol>
-    <button class="acceptbtn">Submit</button>
+    <button class="acceptbtn" id = "button-submit">Submit</button>
   </div>  
 </body>
-
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/index.js"></script>
 </html>
